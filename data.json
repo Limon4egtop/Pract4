@@ -1,59 +1,109 @@
 {
     "products": [
         {
-            "id": 2,
-            "name": "Смартфон Samsung",
-            "price": 29999,
-            "description": "Современный смартфон",
-            "categoryIds": [
-                1,
-                2
-            ]
+            "id": 9,
+            "name": "Игровая консоль PlayStation 5",
+            "price": 69990,
+            "description": "Мощная игровая консоль нового поколения",
+            "categoryIds": [1, 3]
         },
         {
-            "id": 3,
-            "name": "Наушники Sony",
-            "price": 7999,
-            "description": "Беспроводные наушники",
-            "categoryIds": [
-                1
-            ]
+            "id": 10,
+            "name": "Беспроводная колонка JBL Charge 5",
+            "price": 12990,
+            "description": "Громкий и качественный звук в компактном корпусе",
+            "categoryIds": [1, 2]
         },
         {
-            "id": 5,
-            "name": "Зарядное устройство",
-            "price": 1499,
-            "description": "Быстрая зарядка",
-            "categoryIds": [
-                2
-            ]
+            "id": 11,
+            "name": "Ноутбук ASUS ROG Strix G15",
+            "price": 139990,
+            "description": "Игровой ноутбук с RTX 4070 и мощным процессором",
+            "categoryIds": [1]
         },
         {
-            "id": 6,
-            "name": "Пылесос Dyson",
+            "id": 12,
+            "name": "Механическая клавиатура HyperX Alloy FPS",
+            "price": 7990,
+            "description": "Надежная механическая клавиатура для геймеров",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 13,
+            "name": "Смарт-часы Apple Watch Series 9",
+            "price": 45990,
+            "description": "Умные часы с множеством полезных функций",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 14,
+            "name": "Внешний жесткий диск Seagate 2TB",
+            "price": 6990,
+            "description": "Надежное хранилище данных с USB 3.0",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 15,
+            "name": "Квадрокоптер DJI Mini 3 Pro",
+            "price": 94990,
+            "description": "Компактный дрон с камерой 4K",
+            "categoryIds": [1, 3]
+        },
+        {
+            "id": 16,
+            "name": "Графический планшет Wacom Intuos Pro",
+            "price": 34990,
+            "description": "Профессиональный инструмент для художников",
+            "categoryIds": [1]
+        },
+        {
+            "id": 17,
+            "name": "Фитнес-браслет Xiaomi Mi Band 8",
+            "price": 5990,
+            "description": "Помощник для спорта и здоровья",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 18,
+            "name": "Гарнитура Razer Kraken V3",
+            "price": 14990,
+            "description": "Игровая гарнитура с объемным звуком",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 19,
+            "name": "Видеокарта NVIDIA RTX 4080",
+            "price": 219990,
+            "description": "Топовая видеокарта для геймеров и создателей контента",
+            "categoryIds": [1]
+        },
+        {
+            "id": 20,
+            "name": "Настольная лампа Xiaomi Yeelight",
+            "price": 3990,
+            "description": "Умная лампа с настройкой температуры света",
+            "categoryIds": [1, 2]
+        },
+        {
+            "id": 21,
+            "name": "Электросамокат Ninebot Max G30",
             "price": 59990,
-            "description": "Пылесос, мощный очень",
-            "categoryIds": [
-                1
-            ]
+            "description": "Мощный самокат для городских поездок",
+            "categoryIds": [1]
         },
         {
-            "id": 7,
-            "name": "Macbook Air 2021",
-            "price": 94490,
-            "description": "Macbook Air 2021, на процессоре M1",
-            "categoryIds": [
-                1
-            ]
+            "id": 22,
+            "name": "Конструктор LEGO Technic Bugatti Chiron",
+            "price": 24990,
+            "description": "Детализированная модель суперкара для сборки",
+            "categoryIds": [3]
         },
         {
-            "id": 8,
-            "name": "Мега крутая игруха",
-            "price": 100000000000009,
-            "description": "Чупапа-муняня ты? Тогда бери",
-            "categoryIds": [
-                3
-            ]
+            "id": 23,
+            "name": "Игровое кресло Cougar Armor One",
+            "price": 18990,
+            "description": "Эргономичное кресло для геймеров",
+            "categoryIds": [1, 2]
         }
     ],
     "categories": [
