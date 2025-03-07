@@ -4,9 +4,14 @@
 
 ## Для запуска панели администратора, в директории проекта использовать:
 ### ```node server.js```
+Server is running on http://localhost: 3000
+
 
 ## Для запуска user-панели, в директории проекта использовать:
 ### ```node shop-server.js```
+Shop server is running on http://localhost:8080
+
 
 ## Для запуска веб-сокета, который инициализирует работу чата использовать:
 ### ```node websocket-server.js```
+WebSocket сервер запущен на порту 7070
