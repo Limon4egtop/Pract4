@@ -25,14 +25,14 @@ input, textarea {
 button {
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #01a89a;
+    background-color: #1a51f4;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #03beaf;
+    background-color: #1a51f4;
 }
 .product-list {
     display: grid;
@@ -46,10 +46,10 @@ button:hover {
     border-radius: 8px;
 }
 .delete-btn {
-    background-color: #747474;
+    background-color: #cd3939;
 }
 .delete-btn:hover {
-    background-color: #747474;
+    background-color: #cd3939;
 }
 
 .admin-chat-container {
@@ -58,7 +58,7 @@ button:hover {
     right: 20px;
     width: 600px;
     height: 500px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -120,7 +120,7 @@ button:hover {
   }
   
   .admin-message {
-    background: #01a89a;
+    background: #1a51f4;
     margin-left: auto;
     color: #ffffff;
   }
@@ -146,7 +146,7 @@ button:hover {
   #send-button {
     margin-left: 5px;
     padding: 8px 15px;
-    background: #01a89a;
+    background: #1a51f4;
     color: white;
     border: none;
     border-radius: 3px;

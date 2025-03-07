@@ -3,14 +3,7 @@ let socket;
 function initChat() {
   const chatContainer = document.createElement('div');
   chatContainer.className = 'chat-container';
-  chatContainer.innerHTML = `
-    <div class="chat-header">Чат с поддержкой</div>
-    <div id="chat-messages" class="chat-messages"></div>
-    <div class="chat-input">
-      <input type="text" id="message-input" placeholder="Введите сообщение...">
-      <button id="send-button">Отправить</button>
-    </div>
-  `;
+  chatContainer.innerHTML = '';
   document.body.appendChild(chatContainer);
   
   const style = document.createElement('style');
