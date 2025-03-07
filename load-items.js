@@ -131,19 +131,31 @@ function filterProducts() {
     displayProducts(filteredProducts);
 }
 
-// Отображение продуктов
 function displayProducts(products) {
     const productsContainer = document.getElementById('products');
     if (!productsContainer) return;
-    
+
+    const showPrice = document.getElementById('toggle-price').checked;
+    const showDescription = document.getElementById('toggle-description').checked;
+
     productsContainer.innerHTML = products.map(product => `
         <div class="product-card">
             <h3>${product.name}</h3>
-            <p>Цена: ${product.price} ₽</p>
-            <p>${product.description}</p>
+            ${showPrice ? `<p>Цена: ${product.price} ₽</p>` : ''}
+            ${showDescription ? `<p>${product.description}</p>` : ''}
         </div>
     `).join('');
 }
+
+// Добавим обработчики событий для чекбоксов
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('toggle-price').addEventListener('change', () => filterProducts());
+    document.getElementById('toggle-description').addEventListener('change', () => filterProducts());
+
+    loadCategories();
+    loadProducts();
+});
+
 
 // Загрузка данных при загрузке страницы
 document.addEventListener('DOMContentLoaded', () => {
